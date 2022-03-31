@@ -7,7 +7,7 @@ ALLOWED_HOSTS = ['msabetta.pythonanywhere.com']
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR_TEST = os.path.dirname(os.path.abspath("__file__")) + "/my-first-blog/mysite/"
+BASE_DIR_TEST = os.path.dirname(os.path.abspath(__file__))
 
 DATABASES = {
     'default': {
