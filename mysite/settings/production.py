@@ -1,6 +1,6 @@
 from .default import *
 
-ALLOWED_HOSTS = ['msabetta.pythonanyware.com']
+ALLOWED_HOSTS = ['msabetta.pythonanywhere.com']
 
 
 # Database
