@@ -9,26 +9,29 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
+            "console": "integratedTerminal",
             "args": [
                 "runserver",
+                "0:8080",
                 "--noreload",
-                "--settings",
-                "mysite.settings.default",
-                "0:8080"
+                "--nothreading"
             ],
-            "django": true
+            "django": true,
+            "pythonPath":"/home/usuario/pythonita/django_project/envs/django/bin/python3"
         },
         {
             "name": "Python: Django Test",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
+            "console": "integratedTerminal",
             "args": [
                 "test",
                 "--settings",
                 "mysite.settings.tests"
             ],
-            "django": true
+            "django": true,
+            "pythonPath":"/home/usuario/pythonita/django_project/envs/django/bin/python3"
         }
     ]
 }
