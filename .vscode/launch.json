@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: File corrente",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
@@ -17,7 +25,7 @@
                 "--nothreading"
             ],
             "django": true,
-            "pythonPath":"/home/usuario/pythonita/django_project/envs/django/bin/python3"
+            "pythonPath": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
         },
         {
             "name": "Python: Django Test",
@@ -31,7 +39,7 @@
                 "mysite.settings.tests"
             ],
             "django": true,
-            "pythonPath":"/home/usuario/pythonita/django_project/envs/django/bin/python3"
+            "pythonPath": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
         }
     ]
 }
