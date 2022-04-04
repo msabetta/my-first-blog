@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+   <object model="blog.post" pk="1">
+      <field name="author" rel="ManyToOneRel" to="auth.user">1</field>
+      <field name="title" type="CharField">la casa in collina</field>
+      <field name="text" type="TextField">la casa in collina</field>
+      <field name="created_date" type="DateTimeField">2022-03-28T14:02:41+00:00</field>
+      <field name="published_date" type="DateTimeField">2022-03-28T14:30:40+00:00</field>
+   </object>
+</django-objects>

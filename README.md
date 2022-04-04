@@ -12,3 +12,13 @@ pip install -r requirements.txt
 
 
 python manage.py migrate
+
+TEST
+====
+
+1. Create fixtures:
+
+python manage.py dumpdata --format yaml > blog/fixtures/posts.yml
+python manage.py dumpdata --format xml --indent 3 > blog/fixtures/posts.xml
+python manage.py dumpdata --indent 3 > blog/fixtures/posts.json
+

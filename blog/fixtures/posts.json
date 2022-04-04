@@ -1,0 +1,13 @@
+[
+{
+   "model": "blog.post",
+   "pk": 1,
+   "fields": {
+      "author": 1,
+      "title": "la casa in collina",
+      "text": "la casa in collina",
+      "created_date": "2022-03-28T14:02:41Z",
+      "published_date": "2022-03-28T14:30:40Z"
+   }
+}
+]

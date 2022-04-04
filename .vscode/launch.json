@@ -25,7 +25,7 @@
                 "--nothreading"
             ],
             "django": true,
-            "pythonPath": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
+            "python": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
         },
         {
             "name": "Python: Django Test",
@@ -35,11 +35,12 @@
             "console": "integratedTerminal",
             "args": [
                 "test",
+                "mysite.tests.test_posts",
                 "--settings",
                 "mysite.settings.tests"
             ],
             "django": true,
-            "pythonPath": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
+            "python": "/home/usuario/pythonita/django_project/envs/django/bin/python3"
         }
     ]
 }
